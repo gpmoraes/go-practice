@@ -32,7 +32,7 @@ func main() {
 	// calculate BMI
 	bmi := weight / (height * height)
 		
-    if bmi <= 18.5 {
+    	if bmi <= 18.5 {
 		fmt.Printf("Your BMI: %.2f \n", bmi)
 		fmt.Printf("Underweight \n")
 	}
