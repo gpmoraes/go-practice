@@ -6,4 +6,4 @@ import (
 )
 
 // variable that stores the user input
-var Reader 	   = bufio.NewReader(os.Stdin)
+var Reader = bufio.NewReader(os.Stdin)
