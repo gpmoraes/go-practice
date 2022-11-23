@@ -10,6 +10,7 @@ import (
 )
 
 // variable that stores the user input
+<<<<<<< HEAD
 var reader = bufio.NewReader(os.Stdin)
 
 func GetUserMetrics() (weight float64, height float64) {
@@ -27,3 +28,6 @@ func getUserInput(promptText string) (value float64) {
 
 	return
 }
+=======
+var Reader = bufio.NewReader(os.Stdin)
+>>>>>>> 060ceb58e133972e9052831e6f3ebe30ec7cd3ff
